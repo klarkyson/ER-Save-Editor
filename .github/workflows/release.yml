@@ -30,7 +30,7 @@ jobs:
     name: Build (${{ matrix.target }})
     runs-on: ${{ matrix.os }}
     env:
-      BIN: ER_save_editor
+      BIN: er-save-editor
     steps:
       - uses: actions/checkout@v4
         with:
